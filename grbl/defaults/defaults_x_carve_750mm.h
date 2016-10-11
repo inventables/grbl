@@ -1,5 +1,5 @@
 /*
-  defaults_x_carve_500mm.h - defaults settings configuration file
+  defaults_x_carve_750mm.h - defaults settings configuration file
   Part of Grbl
 
   Copyright (c) 2012-2015 Sungeun K. Jeon
@@ -44,8 +44,8 @@
   #define DEFAULT_X_ACCELERATION (500.0*60*60) // 25*60*60 mm/min^2 = 25 mm/sec^2
   #define DEFAULT_Y_ACCELERATION (500.0*60*60) // 25*60*60 mm/min^2 = 25 mm/sec^2
   #define DEFAULT_Z_ACCELERATION (50.0*60*60) // 25*60*60 mm/min^2 = 25 mm/sec^2
-  #define DEFAULT_X_MAX_TRAVEL 290.0 // mm
-  #define DEFAULT_Y_MAX_TRAVEL 290.0 // mm
+  #define DEFAULT_X_MAX_TRAVEL 540.0 // mm
+  #define DEFAULT_Y_MAX_TRAVEL 540.0 // mm
   #define DEFAULT_Z_MAX_TRAVEL 100.0 // mm
   #define DEFAULT_SPINDLE_RPM_MAX 1.0 // rpm ... (1 is on/off for AC spindles)
   #define DEFAULT_SPINDLE_RPM_MIN 0.0 // rpm  
