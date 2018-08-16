@@ -66,7 +66,7 @@ void write_global_settings()
 
 // Method to restore EEPROM-saved Grbl global settings back to defaults.
 void settings_restore(uint8_t restore_flag) {
-  if (restore_flag & SETTINGS_RESTORE_DEFAULTS) {
+  if (restore_flag & SETTINGS_RESTORE_DEFAULTS) {    
     settings.pulse_microseconds = DEFAULT_STEP_PULSE_MICROSECONDS;
     settings.stepper_idle_lock_time = DEFAULT_STEPPER_IDLE_LOCK_TIME;
     settings.step_invert_mask = DEFAULT_STEPPING_INVERT_MASK;
